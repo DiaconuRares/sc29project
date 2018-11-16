@@ -4,13 +4,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #947D69;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .header {
     margin: 0;
     padding: 0;
     display: flex;
+    position: sticky;
+    top: 0px;
     height: 13vw;
     flex-direction: row;
     align-items: center;
@@ -103,7 +105,7 @@ body {
 }
 
 .links {
-    position: absolute;
+    position: fixed;
     top: 13vw;
     right: 0;
     height: calc(20vw + 120px);
@@ -149,4 +151,51 @@ body {
     cursor: pointer;
     color: tan;
     transition: 0.5s;
+}
+
+.container1 {
+    margin: 0;
+    padding: 3.5vw;
+    background-color: tan;
+    height: auto 100%;
+    color: black;
+    text-align: center;
+    font-size: 2vw;
+    font-family: sans-serif;
+    overflow: hidden;
+    cursor: default;
+}
+
+.container1>.text {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.container1>.text1 {
+    align-self: flex-start;
+    font-size: 3vw;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container1>.text2 {
+    font-style: normal;
+    font-weight: 100;
+}
+
+.container1>.text4>ol>li {
+    text-align: left;
+    margin-bottom: 1.5vw;
+    margin-left: 3vw
+}
+
+.container1>.text5 {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.container1>.text5:hover {
+    color: white;
+    transition: 0.8s;
 }
