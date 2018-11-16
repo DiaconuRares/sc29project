@@ -81,7 +81,7 @@ body {
 .cont>.bkg>.cover>.textarea>.text {
     opacity: 1;
     background-color: transparent;
-    font-size: calc(5vw + 15px);
+    font-size: 4vw;
     padding: 0;
     margin: 0;
     justify-content: center;
