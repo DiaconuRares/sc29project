@@ -109,7 +109,7 @@ body {
 }
 
 .links {
-    position: sticky;
+    position: fixed;
     top: 13vw;
     right: 0;
     height: calc(20vw + 120px);
