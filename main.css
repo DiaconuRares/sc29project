@@ -109,6 +109,8 @@ body {
 }
 
 .links {
+    margin: 0;
+    padding: 0;
     position: fixed;
     top: 13vw;
     right: 0;
