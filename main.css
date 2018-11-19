@@ -110,7 +110,7 @@ body {
 
 .links {
     position: fixed;
-    top: 13vw;
+    top: 0;
     right: 0;
     height: calc(20vw + 120px);
     display: flex;
