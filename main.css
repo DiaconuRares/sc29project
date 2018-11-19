@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    position: fixed;
+    position: sticky;
     top: 0px;
     height: 13vw;
     flex-direction: row;
@@ -109,7 +109,7 @@ body {
 }
 
 .links {
-    position: fixed;
+    position: sticky;
     top: 13vw;
     right: 0;
     height: calc(20vw + 120px);
